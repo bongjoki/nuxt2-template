@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  text-decoration: none;
+  color: inherit;
+  box-sizing: border-box;
+  font-family: 'SUIT', 'Spoqa Han Sans', 'Sans-serif';
+  word-break: keep-all;
+}
+:root {
+  --app-height: 100vh;
+}
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+html,
+body,
+#__nuxt,
+#__layout {
+  min-height: var(--app-height);
+  min-height: -webkit-fill-available;
+}
+body {
+  min-height: -webkit-fill-available;
+}
+.van-dialog {
+  z-index: 9999;
+}
+
+.el-dialog {
+  @media screen and (max-width: 500px) {
+    margin-top: 30vh !important;
+  }
+}
