@@ -94,13 +94,9 @@ export default {
         sizes: '16x16',
         href: '/favicon-16x16.png',
       },
-      { rel: 'manifest', href: '/manifest.json' },
+      //{ rel: 'manifest', href: '/manifest.json' },
     ],
     script: [
-      {
-        type: 'text/javascript',
-        src: '//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js',
-      },
     ],
   },
 
